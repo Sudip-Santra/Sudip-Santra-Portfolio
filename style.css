@@ -134,6 +134,11 @@ span{
     border: 3px solid rgb(255, 0, 255);
     box-shadow: 0px 0.5px 40px rgb(255, 0, 255);
     margin-left: 2rem;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.home .home-img img:hover{
+    transform: scale(1.1);
 }
 .about-img img{
     width: 30vw;
@@ -337,7 +342,7 @@ form .btn{
 }
 @media screen and (max-width: 2560px){
     html {
-        font-size: 80%;
+        font-size: 62%;
     }
 }
 @media screen and (max-width: 1440px){
